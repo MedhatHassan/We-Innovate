@@ -11,4 +11,16 @@ Why we used java:
 Build project:
 The keys will be written in keys.txt file and application logs will reside inside file.
 
-Don't forget to stop the key logger application after you've done logging.
+This is a Java program for a simple keylogger. A keylogger is a program that records the keys pressed on a keyboard, usually for the purpose of monitoring user activity.
+
+The program imports various Java classes, including the java.io and java.nio.file packages for file handling, and the org.jnativehook package for registering the native hook to receive global keyboard events.
+
+The KeyLogger class implements the NativeKeyListener interface, which defines methods to be called when a key is pressed, released, or typed. The main method registers the native hook and adds a new instance of the KeyLogger class as a listener for keyboard events.
+
+The nativeKeyPressed method is called when a key is pressed, and writes the text representation of the key to a file called keys.txt. The nativeKeyReleased and nativeKeyTyped methods are not used in this implementation.
+
+The try-with-resources statement is used to ensure that the output stream and writer are properly closed after writing the key to the file.
+
+Note that keyloggers can be used for malicious purposes and may be illegal in some jurisdictions. It is important to use them only for ethical and legitimate purposes, and with the explicit consent of all parties involved.
+
+Note: Don't forget to stop the key logger application after you've done logging.
