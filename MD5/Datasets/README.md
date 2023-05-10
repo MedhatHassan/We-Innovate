@@ -6,8 +6,8 @@ In MD5 dataset we use 2 diffrent datasets
   
   Eample of Simple plain-hash text dataset
   
- ![alt text](https://github.com/MedhatHassan/We-Innovate/blob/main/md5_data.JPG)
- 
+  ![alt text](https://github.com/MedhatHassan/We-Innovate/blob/main/images/md5_data.JPG)
+
  Eample of Complex plain-hash text dataset
  
- ![alt text](https://github.com/MedhatHassan/We-Innovate/blob/main/hardmd5.JPG)
+ ![alt text](https://github.com/MedhatHassan/We-Innovate/blob/main/images/hardmd5.JPG)
