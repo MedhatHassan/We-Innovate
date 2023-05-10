@@ -8,8 +8,7 @@ Why we used java:
   I found a practical API called jNativeHook, making it happends.
  2. Java is cross platform because a program's source code is compiled into an intermediate "bytecode" language.
 
-Build project:
-The keys will be written in keys.txt file and application logs will reside inside file.
+Code description :
 
 This is a Java program for a simple keylogger. A keylogger is a program that records the keys pressed on a keyboard, usually for the purpose of monitoring user activity.
 
@@ -21,6 +20,8 @@ The nativeKeyPressed method is called when a key is pressed, and writes the text
 
 The try-with-resources statement is used to ensure that the output stream and writer are properly closed after writing the key to the file.
 
-Note that keyloggers can be used for malicious purposes and may be illegal in some jurisdictions. It is important to use them only for ethical and legitimate purposes, and with the explicit consent of all parties involved.
+
+How it saves:
+The keys will be written in keys.txt file and application logs will reside inside file.
 
 Note: Don't forget to stop the key logger application after you've done logging.
