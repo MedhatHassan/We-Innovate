@@ -1,2 +1,4 @@
 # We-Innovate
-Our partcipance in We innvote 2023 
+Our participants in We innovate 2023
+
+![alt text](https://github.com/MedhatHassan/We-Innovate/blob/main/images/we.png)
